@@ -22,6 +22,9 @@ public class ArrayLesson {
 
         Scanner scanner = new Scanner(System.in);
 
+        Car car = new Car();
+        car.isBrandNew = true;
+
         String[] foods;
 
         System.out.print("What number of food do you want?: ");
