@@ -20,11 +20,15 @@ void main() {
     // System.out.println(car2.price);
     // System.out.println(car2.isBrandNew);
 
-    Cat cat = new Cat();
-    Dog dog = new Dog();
-    Fish fish = new Fish();
+    // Cat cat = new Cat();
+    // Dog dog = new Dog();
+    // Fish fish = new Fish();
 
-    cat.move();
-    dog.move();
-    fish.move();
+    // cat.move();
+    // dog.move();
+    // fish.move();
+
+    Rectangle rectangle = new Rectangle(4, 6);
+
+    System.out.println(rectangle.area());
 }
