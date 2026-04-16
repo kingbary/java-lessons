@@ -1,17 +1,22 @@
-public class Car {
-    String make;
+public abstract class Car {
     String model;
     double price;
+
+    abstract void speed(); // Abstract method
+
+    void announcement(){
+        System.out.println("This is a car!");
+    }
+
     boolean isBrandNew;
 
-    Car(String make, String model, double price) {
-        this.make = make;
+    Car(String model, double price) {
         this.model = model;
         this.price = price;
     }
 
     void welcomeMessage() {
         this.isBrandNew = true;
-        System.out.println("This is the latest " + this.make + " " + this.model + ", Price: " + this.price);
+        System.out.println("This is the latest " + this.model + ", Price: " + this.price);
     }
 }

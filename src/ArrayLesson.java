@@ -22,8 +22,8 @@ public class ArrayLesson {
 
         Scanner scanner = new Scanner(System.in);
 
-        Car car = new Car();
-        car.isBrandNew = true;
+//        Car car = new Car();
+//        car.isBrandNew = true;
 
         String[] foods;
 
